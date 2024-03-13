@@ -1,0 +1,21 @@
+body {
+    color: #999;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+
+th, td {
+    padding: 2px;
+}
+
+th.sort-desc:after {
+    content: "↓";
+}
+
+th.sort-asc:after {
+    content: "↑";
+}
